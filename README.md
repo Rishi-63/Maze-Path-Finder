@@ -123,8 +123,8 @@ This project was developed as part of the DAA Laboratory coursework to understan
 ---
 
 ### 🔗 Connect with Me
-📧 Email: your_email@example.com
-💻 GitHub: https://github.com/Rishi-63
+📧 Email: 24guptar@rbunagpur.in
+💻 GitHub: https://github.com/Rishi-63/Maze-Path-Finder
 
 ---
 

@@ -1,0 +1,67 @@
+body {
+  background: #0d1117;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #58a6ff;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #238636;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #2ea043;
+}
+
+#maze {
+  display: grid;
+  justify-content: center;
+  margin: 20px auto;
+  grid-template-columns: repeat(30, 20px);
+  grid-template-rows: repeat(30, 20px);
+  gap: 1px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background: #161b22;
+  border-radius: 2px;
+}
+
+.wall {
+  background: #30363d;
+}
+
+.start {
+  background: #1f6feb;
+}
+
+.end {
+  background: #f85149;
+}
+
+.visited {
+  background: #d29922;
+  transition: background 0.1s;
+}
+
+.path {
+  background: #3fb950;
+}
